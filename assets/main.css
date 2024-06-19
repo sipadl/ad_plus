@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: "Agrandir";
+    src: url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.eot");
+    src: url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.svg#Agrandir")format("svg");
+}
+
+body {
+    /* background: #CFE6FF; */
+    color: white;
+   
+}
+.slick-slide {
+    text-align: center;
+    color: #fff;
+    background: #3498db;
+    padding: 40px 0;
+}
+
+.bg-biru {
+    background: #CFE6FF;
+}
+.bg-ungu {
+    background: #473DC6;
+}
+.agrandir {
+    font-family: "Agrandir" , sans-serif !important;
+    font-weight: 600;
+}
+.dead-body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: thin;
+}
+
+.fullscreen {
+    min-height: 85vh;
+}
+.fullscreen-inner {
+    align-content: center;
+    height: 75vh;
+}
+.center-webkit {
+    text-align: -webkit-center;
+}
+
+.text-ungu {
+    color: #473DC6;
+}
+
+.underline {
+    position: relative;
+    display: inline-block; /* atau block tergantung kebutuhan */
+    padding-bottom: 10px; /* Jarak antara teks dan garis bawah */
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 90%;
+    border-bottom: solid 3px #fff; /* Ketebalan garis bawah 3px */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #3282f6 !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fff !important;
+}
+
+.half-screen {
+    min-height: 50vh;
+}
+.img-bg {
+    background-image: url('./4.png');
+    background-repeat: round;
+}
+
+.bg-biru-laut {
+    background-color: #72c4fc;
+}
+
+.text-biru {
+    color: #7dc4fc;
+}
+
+.br-24 {
+    border-radius: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: #555;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.join-us-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 24px;
+    background-color: #CFE6FF;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.join-us-btn:hover {
+    background-color: #473DC6;
+}
+
+.bg-garis {
+    position: relative;
+    background: url('./kotak-bulet.png') no-repeat #473DC6;
+    background-size: auto;
+    background-position-x: left;
+    background-position-y: 100%;
+    padding: 20px; /* Adjust padding as needed */
+}
