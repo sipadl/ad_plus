@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
-@font-face {
-    font-family: "Agrandir";
-    src: url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.eot");
-    src: url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/1dc7840abb13fcda12aa8d1cb21fb832.svg#Agrandir")format("svg");
+.open-sans {
+    font-family: "Open Sans", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.fredoka {
+font-family: "Fredoka", sans-serif !important;
+}
+
+.fredoka-one {
+font-family: 'Fredoka One', cursive;
 }
 
 body {
@@ -21,11 +28,22 @@ body {
     padding: 40px 0;
 }
 
-.bg-biru {
-    background: #CFE6FF;
+.bg-biru-1 {
+    background: #3281F5;
+    color: #7DC3FB;
+}
+.bg-biru-2 {
+    background: #7DC3FB;
+    color: #463CC6;
+}
+.txt-biru-1 {
+    color: #3281F5;
 }
 .bg-ungu {
     background: #473DC6;
+}
+.footer {
+    background: #2C2570;
 }
 .agrandir {
     font-family: "Agrandir" , sans-serif !important;
@@ -68,7 +86,9 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #3282f6 !important;
+    /* color: # */
+    color: #7DC3FB;
+    font-size: 18px;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -92,7 +112,7 @@ body {
 }
 
 .br-24 {
-    border-radius: 40px;
+    border-radius: 46px;
 }
 
 .navbar-nav .nav-link {
@@ -107,24 +127,149 @@ body {
 .navbar-nav .nav-link:hover {
     color: #007bff;
 }
+.gradient-container {
+    position: relative;
+    width: 100%; /* Set the width to 100% to fill the parent container */
+    height: 88vh; /* Set the height to 80% of the viewport height */
+    background: linear-gradient(to right, #1D4C90, #CFE6FF, #CFE6FF,#CFE6FF,#CFE6FF);
+    overflow: hidden;
+}
 
+.img-garis {
+    position: absolute;
+    right: -15rem;
+    transform: scale(1.5);
+    z-index: 0;
+    top: -5rem;
+}
+
+.next-index {
+    margin-top: 12vh;
+    position: relative;
+    z-index: 2;
+}
+
+.align-center {
+    align-items: center;
+}
 .join-us-btn {
-    padding: 0.5rem 1.5rem;
-    border-radius: 24px;
-    background-color: #CFE6FF;
-    color: #fff;
+    padding: 1rem;
+    background-color: #463CC6;
+    color: #fff !important;
+    transition: background-color 0.3s;
+}
+.join-us-btn-2 {
+    padding: 1rem;
+    background-color: #3281F5;
+    color: #fff !important;
     transition: background-color 0.3s;
 }
 
-.join-us-btn:hover {
-    background-color: #473DC6;
+.jakarta-sans {
+    font-family: 'Jakarta Sans', sans-serif;
 }
 
 .bg-garis {
-    position: relative;
-    background: url('./kotak-bulet.png') no-repeat #473DC6;
-    background-size: auto;
-    background-position-x: left;
-    background-position-y: 100%;
-    padding: 20px; /* Adjust padding as needed */
+    position: absolute;
+    background: url('./kotak-bulet.png') no-repeat;
+    height: 80%;
+    width: 30%;
+    background-position: bottom left;
+    overflow: hidden; /* Hides any overflow content */
+}
+
+.bg-titik {
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    background: url('./titik.png') no-repeat;
+    background-position: top;
+    overflow: hidden; /* Hides any overflow content */
+}
+
+.bg-bintang {
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    background: url('./kilatan.png') no-repeat;
+    right: 0;
+    opacity: 0.5; /* Use 0.5 for 50% opacity */
+    overflow: hidden; /* Hides any overflow content */
+}
+
+
+.bg-bintang-1 {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    background: url('./kilatan.png') no-repeat;
+    opacity: 50%;
+    overflow: hidden;
+    right: 0;
+    bottom: 0;
+}
+.bg-bintang-2 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background: url('./kilatan.png') no-repeat;
+    opacity: 50%;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+.bg-join-us {
+    background: url('./join-us.png') #473DC6 no-repeat;
+    background-position: center;
+}
+.font-size-16 {
+    font-size: 16px;
+}
+.wx-300 {
+    width: 300px;
+}
+
+.bg-guidance {
+    background: url('./guidance.png') #473DC6 no-repeat;
+    background-position: center;
+}
+.bg-kategori {
+    background: url('./kategori.png') #7DC3FB no-repeat;
+    background-position: center;
+}
+.bg-prject {
+    background: url('./bg-our-project.png') no-repeat;
+    background-size: cover;
+    padding: 0px 4rem 4rem 4rem ;
+}
+.is-desktop {
+    padding: 6vh;
+}
+
+.arimo {
+    font-family: 'Arimo', sans-serif;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gradient-container {
+        height: 100vh; /* Adjust height for smaller screens */
+    }
+
+    .is-desktop {
+        padding: 0vh;
+    }
+    
+
+    .img-garis {
+        display: none; /* Hide large background image on smaller screens */
+    }
+
+    .bg-garis, .bg-titik, .bg-bintang, .bg-bintang-1, .bg-bintang-2 {
+        display: none; /* Hide background elements on smaller screens */
+    }
+
+    .next-index {
+        margin-top: 5vh; /* Adjust margin for smaller screens */
+    }
 }
