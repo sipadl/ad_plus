@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Company Profile</title>
+        <!-- <title>Company Profile</title> -->
+        <title>Adplus</title>
+        <link rel="icon" type="image/x-icon" href="./assets/img/logo.png ">
         <!-- Bootstrap CSS -->
         <link
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -21,18 +23,24 @@
             href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
             rel="stylesheet">
 
-              <!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+        <!-- Owl Carousel CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
         <link rel="stylesheet" href="./assets/main.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Fredoka+One&family=Jakarta+Sans:wght@300;400;500;600;700&display=swap">        
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Fredoka+One&family=Jakarta+Sans:wght@300;400;500;600;700&display=swap">
 
     </head>
     <body>
         <div class="content">
             <div class="d-flex justify-content-center">
                 <nav class="navbar navbar-custom navbar-expand-sm navbar-dark mt-1 fixed-top">
-                    <div class="container bg-biru-1 open-sans p-4 br-24 shadow-lg">
+                    <div class="container bg-biru-1 open-sans p-3 br-24 shadow-lg">
                         <a class="navbar-brand mx-4" href="#">
                             <img
                                 src="./assets/img/logo.png"
@@ -54,22 +62,22 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav align-center ml-auto mx-4">
                                 <li class="nav-item">
-                                    <a class="nav-link mx-3" href="#">Guidance
+                                    <a class="nav-link mx-3" href="#guidance">Guidance
                                         <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mx-3" href="#">Service</a>
+                                    <a class="nav-link mx-3" href="#service">Service</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mx-3" href="#">Our Project</a>
+                                    <a class="nav-link mx-3" href="#project">Our Project</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mx-3 join-us-btn br-24" href="#">
-                                        <div class="d-flex mx-2">
-                                            <img class="mx-1" src="./assets/comment_light.svg" alt="">    
+                                    <a class="nav-link p-3 join-us-btn br-24" href="#contact">
+                                        <div class="d-flex px-2">
+                                            <img class="mx-1" src="./assets/comment_light.svg" alt="">
                                             <div class="mx-1">
                                                 Join Us
-                                            </div>    
+                                            </div>
                                         </div>
                                     </a>
                                 </li>
@@ -82,29 +90,50 @@
             <div class="container-fluid gradient-container">
                 <img src="./assets/garis-biru.svg" class="img-garis" alt="">
                 <div class="next-index">
-                <!-- <div class="d-flex justify-content-center">
-                    <img src="./assets/img/logo.png" width="150" height="150" class="mb-4" alt="">
-                </div> -->
-                <div class="container">
-                    <div class="dead-body txt-biru-1">
-                        <div class="text-left">
-                            <p class="text-jumbotron fredoka"><strong style="font-size:12vh">Scale Up </strong><span class="display-3"> your business</span></p>
-                            <p class="text-jumbotron display-3 fredoka">and find your business </p>
-                            <p class="text-jumbotron fredoka">
-                                <strong style="font-size:12vh">with Us</strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="text-left d-flex mt-4">
-                        <a class="nav-link mx-3 join-us-btn br-24" href="#">
-                            <div class="d-flex mx-2">
-                                <img class="mx-1" src="./assets/comment_light.svg" alt="">    
-                                <div class="mx-1">
-                                    Join Us
-                                </div>    
+                    <!-- <div class="d-flex justify-content-center"> <img
+                    src="./assets/img/logo.png" width="150" height="150" class="mb-4" alt=""> </div>
+                    -->
+                    <div class="container is-desktop">
+                        <div class="dead-body txt-biru-1 is-not-mobile">
+                            <div class="text-left">
+                                <p class="text-jumbotron fredoka">
+                                    <strong style="font-size:12vh">Scale Up
+                                    </strong>
+                                    <span class="display-3">
+                                        your business</span></p>
+                                <p class="text-jumbotron display-3 fredoka">and find your business
+                                </p>
+                                <p class="text-jumbotron fredoka">
+                                    <strong style="font-size:12vh">with Us</strong>
+                                </p>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                        <div class="dead-body txt-biru-1 is-mobile is-margin">
+                            <div class="text-center">
+                                <p class="text-jumbotron fredoka">
+                                    <strong class="scale-up">Scale Up</strong>
+                                    <span class="business">
+                                        your business</span>
+                                </p>
+                                <p class="text-jumbotron fredoka">
+                                    <span class="find-business">and find your business</span>
+                                </p>
+                                <p class="text-jumbotron fredoka">
+                                    <strong class="with-us">with Us</strong>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="text-left d-flex justify-content-center mt-4">
+                            <a class="nav-link mx-3 join-us-btn br-24" href="#">
+                                <div class="d-flex mx-2">
+                                    <img class="mx-1" src="./assets/comment_light.svg" alt="">
+                                    <div class="mx-1">
+                                        Join Us
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -114,40 +143,71 @@
             <div class="container-fluid align-content-center d-flex justify-content-center">
                 <div class="owl-carousel owl-theme">
                     <div class="item d-flex justify-content-center align-items-center">
-                        <img style="object-fit: cover; width: auto; height: 80px" src="./assets/our-client/aldana.png" alt="...">
+                        <img
+                            style="object-fit: cover; width: auto; height: 80px"
+                            src="./assets/our-client/aldana.png"
+                            alt="...">
                     </div>
                     <div class="item d-flex justify-content-center align-items-center">
-                        <img style="object-fit: cover; width: auto; height: 80px" src="./assets/our-client/emporium.png" alt="...">
+                        <img
+                            style="object-fit: cover; width: auto; height: 80px"
+                            src="./assets/our-client/emporium.png"
+                            alt="...">
                     </div>
                     <div class="item d-flex justify-content-center align-items-center">
-                        <img style="object-fit: cover; width: auto; height: 80px" src="./assets/our-client/garage-premium.png" alt="...">
+                        <img
+                            style="object-fit: cover; width: auto; height: 80px"
+                            src="./assets/our-client/garage-premium.png"
+                            alt="...">
                     </div>
                     <div class="item d-flex justify-content-center align-items-center">
-                        <img style="object-fit: cover; width: auto; height: 80px" src="./assets/our-client/gudang-premium.png" alt="...">
+                        <img
+                            style="object-fit: cover; width: auto; height: 80px"
+                            src="./assets/our-client/gudang-premium.png"
+                            alt="...">
                     </div>
                     <div class="item d-flex justify-content-center align-items-center">
-                        <img style="object-fit: cover; width: auto; height: 80px" src="./assets/our-client/monstera.png" alt="...">
+                        <img
+                            style="object-fit: cover; width: auto; height: 80px"
+                            src="./assets/our-client/monstera.png"
+                            alt="...">
                     </div>
                     <div class="item d-flex justify-content-center align-items-center">
-                        <img style="object-fit: cover; width: auto; height: 80px" src="./assets/our-client/mosaic-star.png" alt="...">
+                        <img
+                            style="object-fit: cover; width: auto; height: 80px"
+                            src="./assets/our-client/mosaic-star.png"
+                            alt="...">
                     </div>
                     <div class="item d-flex justify-content-center align-items-center">
-                        <img style="object-fit: cover; width: auto; height: 80px" src="./assets/our-client/premium-today.png" alt="...">
+                        <img
+                            style="object-fit: cover; width: auto; height: 80px"
+                            src="./assets/our-client/premium-today.png"
+                            alt="...">
                     </div>
                     <div class="item d-flex justify-content-center align-items-center">
-                        <img style="object-fit: cover; width: auto; height: 80px" src="./assets/our-client/pusat-premium.png" alt="...">
+                        <img
+                            style="object-fit: cover; width: auto; height: 80px"
+                            src="./assets/our-client/pusat-premium.png"
+                            alt="...">
                     </div>
                 </div>
             </div>
         </div>
         <!-- Guidance -->
-        <div class="container-fluid bg-guidance py-5" style="min-height: 100vh;" id="guidance">
-            <!-- <div class="bg-bintang"></div>             -->
-            <div class="text-center">
-                <h1 class="section-title animate__animated animate__fadeInUp my-4 display-3 jakarta-sans">OUR GUIDANCE</h1>
+        <div
+            class="container-fluid bg-guidance py-5"
+            style="min-height: 100vh;"
+            id="guidance">
+            <!-- <div class="bg-bintang"></div> -->
+            <div class="text-center is-not-mobile">
+                <h1
+                    class="section-title animate__animated animate__fadeInUp my-4 display-3 jakarta-sans">OUR GUIDANCE</h1>
             </div>
-            <!-- <div class="bg-titik"></div>
-            <div class="bg-garis"></div> -->
+            <div class="text-center is-mobile">
+                <h1
+                    class="section-title animate__animated animate__fadeInUp my-4 display-4 jakarta-sans">OUR GUIDANCE</h1>
+            </div>
+            <!-- <div class="bg-titik"></div> <div class="bg-garis"></div> -->
 
             <div class="container">
                 <div class="is-desktop"></div>
@@ -155,38 +215,60 @@
                     <div class="col-md-3 mt-4 p-3 mx-2 animate__animated animate__fadeInUp">
                         <h2 class="text-center">Scraping The Egg</h2>
                         <h6 class="card p-2 text-ungu text-center my-2">Data driver Strategy</h6>
-                        <p class="card-text jakarta-sans font-size-16">We calculated and curating every data we could collet to made up an idea for a new strategy on every step we take to scale up your business ROI</p>
+                        <p class="card-text jakarta-sans font-size-16">We calculated and curating every
+                            data we could collet to made up an idea for a new strategy on every step we take
+                            to scale up your business ROI</p>
                     </div>
                     <div class="col-md-3 mx-2 animate__animated animate__fadeInUp">
                         <h2 class="text-center">Heating Up The Stove</h2>
                         <h6 class="card p-2 text-ungu text-center my-2">Commited to target</h6>
-                        <p class="card-text jakarta-sans font-size-16">after we cyratubg tge data we have it's time to brainstoming, well other side Trial and error the system we've been made</p>
-                    
+                        <p class="card-text jakarta-sans font-size-16">after we cyratubg tge data we
+                            have it's time to brainstoming, well other side Trial and error the system we've
+                            been made</p>
+
                     </div>
                     <div class="col-md-3 mt-4 p-3 mx-2 animate__animated animate__fadeInUp">
                         <h2 class="text-center">Cooking The Egg</h2>
                         <h6 class="card p-2 text-ungu text-center my-2">Maintaining and Upgrading</h6>
-                        <p class="card-text jakarta-sans font-size-16">Now, We start the system that have been approved, Tweaing up some error and applicated the upgrade to your business system untill the data shows a good signal </p>
-                    
+                        <p class="card-text jakarta-sans font-size-16">Now, We start the system that
+                            have been approved, Tweaing up some error and applicated the upgrade to your
+                            business system untill the data shows a good signal
+                        </p>
+
                     </div>
                     <div class="col-md-6 animate__animated animate__fadeInUp pt-4">
                         <h2 class="text-center">Serving The Egg</h2>
                         <h6 class="card p-2 text-ungu text-center my-2">Make Revenue and be the Top Of Mind Brand</h6>
-                        <p class="card-text jakarta-sans font-size-16">Finas step, after the systems are worked. Time to achieve the main courses of out focus on work. Scale up your business to grow <strong>MORE REVENUE</strong> and made your business to be <strong>TOP OF MIND BRAND</strong></p>
-                    
+                        <p class="card-text jakarta-sans font-size-16">Finas step, after the systems are
+                            worked. Time to achieve the main courses of out focus on work. Scale up your
+                            business to grow
+                            <strong>MORE REVENUE</strong>
+                            and made your business to be
+                            <strong>TOP OF MIND BRAND</strong>
+                        </p>
+
                     </div>
                 </div>
             </div>
         </div>
         <!-- Service -->
-        <div class="container-fluid bg-kategori fullscreen position-relative" id="service">
-            
-            <div class="container py-2 pt-4">
+        <div
+            class="container-fluid bg-kategori fullscreen position-relative"
+            id="service">
+
+            <div class="container py-2 pt-4 is-not-mobile">
                 <div class="text-center">
-                    <h2 class="section-title animate__animated animate__fadeInUp display-3 jakarta-sans ">Our Service</h2>
+                    <h2
+                        class="section-title animate__animated animate__fadeInUp display-3 jakarta-sans ">Our Service</h2>
                 </div>
             </div>
-            <div class="" style="margin-top:10vh"></div>
+            <div class="container py-2 pt-4 is-mobile">
+                <div class="text-center">
+                    <h2
+                        class="section-title animate__animated animate__fadeInUp display-4 jakarta-sans ">Our Service</h2>
+                </div>
+            </div>
+            <div class="is-desktop"></div>
             <div class="container pb-4">
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
@@ -202,52 +284,125 @@
             </div>
         </div>
         <!-- Contact Us -->
-        <div class="container-fluid bg-join-us half-screen is-desktop align-content-center" id="contact">
+        <div
+            class="container-fluid bg-join-us half-screen is-desktop align-content-center"
+            id="contact">
             <div class="container py-4">
-                <div class="row justify-content-around">
-                    <div class="col-4">
-                        <img src="./assets/img/talk-svg.png" class="w-100 h-100" style="opacity: 0.5;" alt="">
+                <div class="is-not-mobile">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-4 col-xs-12">
+                        <img
+                            src="./assets/img/talk-svg.png"
+                            class="w-100 h-100"
+                            style="opacity: 0.5;"
+                            alt="">
                     </div>
-                    <div class="col-4 align-self-center">
+                    <div class="col-md-4 col-xs-12 align-self-center">
                         <div class="display-4 arimo">
-                            <p>Think About 
-                                Your Business
-                                With Us</p> 
+                            <p>Think About Your Business With Us</p>
                         </div>
                         <div class="d-flex text-left mt-4">
                             <a class="nav-link join-us-btn-2 br-24" href="#">
                                 <div class="d-flex">
-                                    <img class="mx-1" src="./assets/comment_light.svg" alt="">    
+                                    <img class="mx-1" src="./assets/comment_light.svg" alt="">
                                     <div class="mx-1">
                                         Join Us
-                                    </div>    
+                                    </div>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
+                </div>
+                <div class="is-mobile">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-4 col-xs-12">
+                        <img
+                            src="./assets/img/talk-svg.png"
+                            class="w-100 h-100"
+                            style="opacity: 0.5;"
+                            alt="">
+                    </div>
+                    <div class="col-md-4 text-center col-xs-12 align-self-center">
+                        <div class="display-4 arimo">
+                            <p>Think About Your Business With Us</p>
+                        </div>
+                        <div class="d-flex justify-content-center mt-4">
+                            <a class="nav-link join-us-btn-2 br-24" href="#">
+                                <div class="d-flex">
+                                    <img class="mx-1" src="./assets/comment_light.svg" alt="">
+                                    <div class="mx-1">
+                                        Join Us
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </div>
         </div>
-        <div class="container-fluid bg-prject">
+        <div class="container-fluid bg-prject" id="project">
             <div class="container py-4">
+                <div class="is-not-mobile">
                 <div class="text-center mb-5">
-                    <h2 class="section-title animate__animated animate__fadeInUp display-3 jakarta-sans ">Our Service</h2>
+                    <h2
+                        class="section-title animate__animated animate__fadeInUp display-3 jakarta-sans ">Our Service</h2>
                 </div>
-                <div class="row justify-content-around">
-                    <div class="col-3">
-                        <img src="./assets/our-project.png" style="object-fit: cover; width: 300px; height: 300px;" alt="">
+                <div class="text-center mb-5 is-mobile">
+                    <h2
+                        class="section-title animate__animated animate__fadeInUp display-4 jakarta-sans ">Our Service</h2>
+                </div>
+                </div>
+                <div class="is-not-mobile">
+                <div class="row d-flex justify-content-around ">
+                    <div class="col-md-3">
+                        <img
+                            src="./assets/our-project.png"
+                            style="object-fit: cover; width: 300px; height: 300px;"
+                            alt="">
                     </div>
-                    <div class="col-6 align-self-center arimo">
-                            <h2>Let’s Asking Us About Our </h2> 
-                            <h2>Project & Consultation</h2> 
-                            <h2><strong>With Us</strong></h2>  
+                    <div class="col-md-5 align-self-center arimo">
+                        <h2>Let’s Asking Us About Our
+                        </h2>
+                        <h2>Project & Consultation</h2>
+                        <h2>
+                            <strong>With Us</strong>
+                        </h2>
                         <div class="d-flex text-left mt-4">
                             <a class="nav-link join-us-btn-2 br-24" href="#">
                                 <div class="d-flex">
-                                    <img class="mx-1" src="./assets/comment_light.svg" alt="">    
+                                    <img class="mx-1" src="./assets/comment_light.svg" alt="">
                                     <div class="mx-1">
                                         Join Us
-                                    </div>    
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row is-mobile">
+                    <div class=" col-xs-12">
+                        <img
+                            src="./assets/our-project.png"
+                            style="object-fit: cover; width: 100%; height: 100%;"
+                            alt="">
+                    </div>
+                    <div class="col-xs-12 text-center arimo mt-4">
+                        <h2>Let’s Asking Us About Our
+                        </h2>
+                        <h2>Project & Consultation</h2>
+                        <h2>
+                            <strong>With Us</strong>
+                        </h2>
+                        <div class="d-flex justify-content-center text-left mt-4">
+                            <a class="nav-link join-us-btn-2 br-24" href="#">
+                                <div class="d-flex">
+                                    <img class="mx-1" src="./assets/comment_light.svg" alt="">
+                                    <div class="mx-1">
+                                        Join Us
+                                    </div>
                                 </div>
                             </a>
                         </div>
@@ -257,19 +412,40 @@
         </div>
     </div>
     <!-- Footer -->
+</body>
     <footer class="footer mt-auto py-4 text-white mt-4">
-        <div class="container">
+        <div class="container p-4">
             <div class="d-flex justify-content-center">
-                <img class="mx-2" src="./assets/ico/fb.png" alt="">
-                <img class="mx-2" src="./assets/ico/ig.png" alt="">
-                <img class="mx-2" src="./assets/ico/wa.png" alt="">
-                <img class="mx-2" src="./assets/ico/telegram.png" alt="">
+                    <a href="">
+                        <img class="mx-2" src="./assets/ico/fb.png" alt="">
+                    </a>
+                    <a href="https://instagram.com/adplus.id">
+                        <img class="mx-2" src="./assets/ico/ig.png" alt="">
+                    </a>
+                    <a
+                        href="https://wa.me/6285175224626?text=Halo%20saya%20ingin%20melakukan%20konsultasi%20dengan%20adplus.id">
+                        <img class="mx-2" src="./assets/ico/wa.png" alt="">
+                    <a href="#">
+                        <img class="mx-2" src="./assets/ico/telegram.png" alt="">
+                    </a>
             </div>
-            <div class="d-flex justify-content-center pt-4">
-                <a href="" class="text-light mx-4" style="font-size: 18px;">Home</a>
-                <a href="" class="text-light mx-4" style="font-size: 18px;">Service</a>
-                <a href="" class="text-light mx-4" style="font-size: 18px;">Guidance</a>
-                <a href="" class="text-light mx-4" style="font-size: 18px;">Project</a>
+            <div class="d-flex justify-content-center pt-4 row">
+                <a
+                    href="#home"
+                    class="text-light px-4 text-center"
+                    style="font-size: 18px;">Home</a>
+                <a
+                    href="#service"
+                    class="text-light px-4 text-center"
+                    style="font-size: 18px;">Service</a>
+                <a
+                    href="#guidance"
+                    class="text-light px-4 text-center"
+                    style="font-size: 18px;">Guidance</a>
+                <a
+                    href="#project"
+                    class="text-light px-4 text-center"
+                    style="font-size: 18px;">Project</a>
             </div>
         </div>
     </footer>
@@ -283,10 +459,11 @@
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-   <!-- Owl Carousel JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-        
+
         // Add animation classes on load
         $(document).ready(function () {
             $('.section-title, .card, form').addClass(
@@ -294,29 +471,28 @@
             );
         });
 
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('.owl-carousel').owlCarousel({
                 loop: true,
-                dots:false,
+                dots: false,
                 margin: 10,
-                autoplay:true,
-                autoplayTimeout:3000,
+                autoplay: true,
+                autoplayTimeout: 3000,
                 animateOut: 'fadeOut',
                 animateIn: 'flipInX',
                 nav: false,
-                responsive:{
-                    0:{
-                        items:2
+                responsive: {
+                    0: {
+                        items: 2
                     },
-                    600:{
-                        items:4
+                    600: {
+                        items: 4
                     },
-                    1000:{
-                        items:8
+                    1000: {
+                        items: 8
                     }
                 }
             });
         });
     </script>
-</body>
 </html>

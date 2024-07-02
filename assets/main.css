@@ -250,14 +250,34 @@ body {
     font-family: 'Arimo', sans-serif;
 }
 
+.is-mobile {
+    display: none !important;
+}
+
+.is-not-mobile {
+    display:block !important;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .gradient-container {
-        height: 100vh; /* Adjust height for smaller screens */
+        height: 60vh; /* Adjust height for smaller screens */
+    }
+
+    .is-margin {
+        margin-top: 20vh;
     }
 
     .is-desktop {
         padding: 0vh;
+    }
+
+    .is-not-mobile {
+        display: none !important;
+    }
+
+    .is-mobile {
+        display: block !important;
     }
     
 
@@ -271,5 +291,44 @@ body {
 
     .next-index {
         margin-top: 5vh; /* Adjust margin for smaller screens */
+    }
+}
+@media (max-width: 1200px) {
+    .scale-up, .with-us {
+        font-size: 10vh;
+    }
+
+    .business, .find-business {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .scale-up, .with-us {
+        font-size: 8vh;
+    }
+
+    .business, .find-business {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .scale-up, .with-us {
+        font-size: 6vh;
+    }
+
+    .business, .find-business {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .scale-up, .with-us {
+        font-size: 4vh;
+    }
+
+    .business, .find-business {
+        font-size: 1.5rem;
     }
 }
